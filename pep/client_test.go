@@ -1,7 +1,7 @@
 package pep
 
 import (
-	pdp "github.com/yuewko/themislib/pdp-service"
+	pdp "github.com/infobloxopen/themislib/pdp-service"
 	context "golang.org/x/net/context"
 	"testing"
 )

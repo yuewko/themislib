@@ -3,8 +3,8 @@ package policy
 import (
 	"fmt"
 	"github.com/coredns/coredns/middleware"
-	pdp "github.com/yuewko/themislib/pdp-service"
-	pep "github.com/yuewko/themislib/pep"
+	pdp "github.com/infobloxopen/themislib/pdp-service"
+	pep "github.com/infobloxopen/themislib/pep"
 	"github.com/miekg/dns"
 	"golang.org/x/net/context"
 	"net"

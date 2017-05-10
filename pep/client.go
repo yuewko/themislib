@@ -1,6 +1,6 @@
 package pep
 
-//go:generate bash -c "mkdir -p $GOPATH/src/github.com/yuewko/themislib/pdp-service && protoc -I $GOPATH/src/github.com/yuewko/themislib/proto/ $GOPATH/src/github.com/yuewko/themislib/proto/service.proto --go_out=plugins=grpc:$GOPATH/src/github.com/yuewko/themislib/pdp-service && ls $GOPATH/src/github.com/yuewko/themislib/pdp-service"
+//go:generate bash -c "mkdir -p $GOPATH/src/github.com/infobloxopen/themislib/pdp-service && protoc -I $GOPATH/src/github.com/infobloxopen/themislib/proto/ $GOPATH/src/github.com/infobloxopen/themislib/proto/service.proto --go_out=plugins=grpc:$GOPATH/src/github.com/infobloxopen/themislib/pdp-service && ls $GOPATH/src/github.com/infobloxopen/themislib/pdp-service"
 
 import (
 	"fmt"

@@ -12,8 +12,8 @@ import (
 	"github.com/coredns/coredns/middleware/pkg/trace"
 	"github.com/coredns/coredns/request"
 
-	pb "github.com/yuewko/themislib/pdp-service"
-	"github.com/yuewko/themislib/pep"
+	pb "github.com/infobloxopen/themislib/pdp-service"
+	"github.com/infobloxopen/themislib/pep"
 
 	"github.com/miekg/dns"
 

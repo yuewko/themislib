@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	pb "github.com/yuewko/themislib/pdp-service"
+	pb "github.com/infobloxopen/themislib/pdp-service"
 )
 
 var (
